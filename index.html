@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News-Pigeon</title>
 
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- ------------------------NavBar --------------------------------------------------->
+    <nav>
+      <div class="main-nav container flex">
+        <div class="company-logo flex">
+          <img src="assets/logo.png" alt="company-logo" class="logo" />
+          <h4><span class="news">News</span> Pigeon</h4>
+        </div>
+
+        <div class="nav-links">
+          <ul class="flex links">
+            <li
+              class="hover-link nav-items"
+              id="India"
+              onclick="search('India')"
+            >
+              Home
+            </li>
+            <li
+              class="hover-link nav-items"
+              id="Today"
+              onclick="search('Today')"
+            >
+              Today News
+            </li>
+            <li class="hover-link nav-items" id="ipl" onclick="search('ipl')">
+              IPL
+            </li>
+            <li
+              class="hover-link nav-items"
+              id="Finance"
+              onclick="search('Finance')"
+            >
+              Finance
+            </li>
+            <li
+              class="hover-link nav-items"
+              id="Politics"
+              onclick="search('Politics')"
+            >
+              Politics
+            </li>
+          </ul>
+        </div>
+
+        <div class="search-bar">
+          <input type="text" class="news-input" placeholder="Science" />
+          <!-- <button class="search-button" onclick="btnSearch()">Search</button> -->
+          <button class="search-button" id="ser" onclick="search('ser');">
+            Search
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!---------------------------NavBar --------------------------------------------------->
+
+    <main>
+      <!-------- Loader -------->
+      <div class="spinner"></div>
+      <!-------- Loader -------->
+
+      <!---------- Content Container ------------------------->
+      <div class="container flex main-container" id="c-container"></div>
+      <!---------- Content Container ------------------------->
+    </main>
+
+    <template id="template-card">
+      <div class="card">
+        <div class="image-container">
+          <img
+            src="https://via.placeholder.com/400x200"
+            alt="news-image"
+            class="news-image"
+            id="nimage"
+          />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title" id="ctitle">This is the title</h3>
+          <h6 class="news-source" id="nsource">End Gadget 26/08/2023</h6>
+          <p class="card-text" id="ndescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste odio
+            ipsa tempora corporis autem? Maiores quaerat delectus accusantium ab
+            distinctio!
+          </p>
+          <h6 class="heading6">...Readmore</h6>
+        </div>
+      </div>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>

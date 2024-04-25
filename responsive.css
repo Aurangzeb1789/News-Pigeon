@@ -1,0 +1,171 @@
+/* Responsive Design for Mobile Phone */
+
+@media (max-width: 600px) {
+  nav {
+    height: 14vh;
+    margin: 0;
+  }
+
+  .main-nav {
+    margin: 0 10px;
+    height: 60%;
+  }
+
+  .logo {
+    width: 6.7vmax;
+  }
+
+  h4 {
+    font-size: 1.7vmax;
+    margin-left: 3px;
+    padding-top: 0;
+  }
+
+  .search-bar {
+    display: flex;
+    gap: 5px;
+  }
+
+  .news-input {
+    width: 15vmax;
+    height: 3vmax;
+    font-size: 2.5vw;
+    border: 2px solid #838080;
+    margin-inline: 3px;
+  }
+
+  .search-button {
+    width: 12vw;
+    height: 2.9vmax;
+    padding: 2px 3px;
+    font-size: 2.5vw;
+    margin-inline: 2px;
+    font-weight: 500;
+  }
+  .nav-links {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    bottom: 0;
+    padding: 5px 10px 5px;
+    background-color: gainsboro;
+  }
+
+  .links {
+    font-size: 1.4vmax;
+    color: black;
+    justify-content: space-around;
+  }
+  li {
+    padding: 3px 5px;
+  }
+
+  .main-container {
+    /* width: 10vw; */
+    margin-top: 13vh;
+    padding-inline: 10px;
+    justify-content: space-around;
+  }
+}
+
+/* Responsive Design For Tablets */
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .main-nav {
+    margin-inline: 15px;
+    height: 13vw;
+    gap: 5px;
+    /* height: 8vh; */
+  }
+
+  .logo {
+    /* width: 5.8vmax; */
+    width: 7vw;
+  }
+  h4 {
+    /* font-size: 1.4vmax; */
+    font-size: 2vw;
+
+    margin-left: 5px;
+    padding-top: 0px;
+  }
+
+  .links {
+    font-size: 1.5vw;
+    /* column-gap: 3vw; */
+  }
+
+  .news-input {
+    /* width: 10vmax;
+        height: 2.5vmax;
+        font-size: 1vmax; */
+
+    width: 16vw;
+    height: 4vw;
+    font-size: 1.3vw;
+    margin-inline: 2px;
+  }
+  .search-button {
+    /* width: 5.5vmax;
+  height: 2.5vmax;
+  padding: 0px 3px ;
+  font-size: 1vmax;
+  margin-inline: 2px; */
+
+    width: 7vw;
+    height: 3.9vw;
+    padding: 0px 3px;
+    font-size: 1.3vw;
+    margin-inline: 2px;
+  }
+
+  .main-container {
+    margin-inline: 15px;
+    justify-content: center;
+    column-gap: 20px;
+  }
+  .card {
+    width: 45%;
+    overflow: auto;
+  }
+}
+
+/* Responsive Design for Large Device */
+
+@media (min-width: 901px) and (max-width: 1180px) {
+  .main-nav {
+    margin-inline: 20px;
+    /* height: 6.5vh; */
+    height: 6.5vmax;
+    /* background-color: yellow; */
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin-left: 5px;
+    padding-top: 0;
+  }
+
+  .news-input {
+    width: 15vw;
+    height: 2.2vmax;
+    margin-inline: 7px;
+  }
+
+  .search-button {
+    width: 7vw;
+    height: 2vmax;
+    padding: 2px 5px;
+    margin-inline: 2px;
+    font-size: 0.8rem;
+  }
+  .main-container {
+    justify-content: space-around;
+    margin-inline: 20px;
+  }
+  .links {
+    font-size: 1vw;
+  }
+}
