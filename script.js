@@ -1,5 +1,5 @@
-// const API_KEY = "1ff891b6113246788e1d2a1cc1fe6460";
-const API_KEY = "9e9b7d1c2042476586e5d3584b6e7cab";
+const API_KEY = "1ff891b6113246788e1d2a1cc1fe6460";
+// const API_KEY = "9e9b7d1c2042476586e5d3584b6e7cab";
 const URL = "https://newsapi.org/v2/everything?q=";
 
 let spinner = document.querySelector(".spinner");
