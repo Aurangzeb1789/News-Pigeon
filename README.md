@@ -13,5 +13,10 @@ News-Pigeon is a simple web application that allows users to browse and read new
 <br>
 <b>Spinner Animation:</b> Provides visual feedback to users while news data is being fetched.<br>
 <br>
+<h2>Technologies Used</h2>
+HTML <br>
+CSS (with Flexbox for layout) <br>
+JavaScript (for dynamic content fetching and manipulation) <br>
+News API (for fetching news data)<br>
 
 
